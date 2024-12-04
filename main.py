@@ -14,6 +14,8 @@ def main():
     for item in char_list:
         if item["char"].isalpha():
             print(f"The {item["char"]} character was found {item["count"]} times")
+    print("--- End report ---")
+
 
 def count_words(text):
     words = text.split()
